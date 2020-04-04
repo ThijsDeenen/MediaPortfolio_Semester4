@@ -1,0 +1,46 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.Thijs {
+    display: block;
+    margin:0 auto;
+    margin-top: -2em;
+    width: 30em;
+}
+
+.NavBar {
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.NavBarItem {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 15%;
+    font-size: 200%;
+    text-align: center;
+}
+
+.NavBarItem a{
+    color: white;
+    text-decoration: none;
+}
+
+.NavBarItem:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
