@@ -7,8 +7,13 @@ body {
     display: block;
     margin:0 auto;
     margin-top: -2em;
+    position: relative;
     width: 30em;
+}
 
+.ThijsBackground {
+    width: 100em;
+    position: absolute;
 }
 /*///NAVIGATION BAR///*/
 .NavBar {
@@ -57,7 +62,8 @@ body {
 }
 /*///SHOWCASE///*/
 .ShowCase {
-    margin-left: 1%;
+    margin: 5%;
+    max-width: 90%;
 }
 
 .ShowCase p{
@@ -65,5 +71,6 @@ body {
 }
 
 .ShowCase img{
-    max-width: 20em;
+    max-width: 50em;
 }
+
